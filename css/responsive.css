@@ -11,16 +11,25 @@
     }
 
 
-    .aboutWrapper img {
-        width: 60%;
+    #about img {
+        width: 100%;
+    }
+
+    .aboutText {
+        width: 100% !important;
+        padding: 0 !important;
     }
     
     .aboutText p {
         margin-top: 20px;
-        font-size: 1.3rem;
+        font-size: 1rem;
 
     }
 
+    .site-detail {
+        width: 100% !important;
+        font-size: 1rem;
+    }
     
 
 }
@@ -29,7 +38,7 @@
 
 
     header h1 {
-        font-size: 4rem !important;
+        font-size: 2rem !important;
     }
 
     .hamburger {
@@ -77,10 +86,18 @@
     .aboutWrapper {
         width: 100% !important;
     }
+    
+    #about img {
+        padding: 0 !important;
+    }
 
-    .aboutText p {
-        /* font-size: 1.5rem; */
+    .aboutText {
         width: 100% !important;
+    }
+    
+    .aboutText p {
+        font-size: 1rem !important;
+
     }
 
     .worksWrapper {
@@ -92,12 +109,17 @@
         margin-bottom: 30px;
     }
 
+    .workpic img {
+        width: 100% !important;
+    }
+
     .site-title {
-        font-size: 1.5rem;
+        font-size: 1rem !important;
     }
 
     .site-detail {
         width: 100% !important;
+        font-size: .8rem;
     }
 
 }
