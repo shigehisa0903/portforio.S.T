@@ -51,7 +51,7 @@ header h1 {
     position: absolute;
     top: 45%;
     left: 10%;
-    font-size: 6rem;
+    font-size: 5rem;
 }
 
 /* サイト読み込み時のアクション */
@@ -127,17 +127,6 @@ header .nav li:nth-child(2) {
     display: none;
 }
 
-/* 背景色変化時にﾒﾆｭｰﾊﾞｰを出現させる */
-
-/* .mask .mask-nav {
-
-    z-index: 20;
-    text-align: center;
-    position: absolute;
-    top: -200px;
-    right: 10%;
-    transition: .7s;
-} */
 
 .mask-nav li:nth-child(1),
 .mask-nav li:nth-child(2) {
@@ -157,7 +146,7 @@ header .nav li:nth-child(2) {
 .aboutWrapper {
     display: flex;
     justify-content: space-between;
-    width: 60%;
+    width: 100%;
     margin: 0 auto;
 }
 
