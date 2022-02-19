@@ -162,7 +162,7 @@ header .nav li:nth-child(2) {
 }
 
 .pic {
-    max-width: 100%;
+    width: 100%;
 }
 
 #about img {
@@ -170,7 +170,7 @@ header .nav li:nth-child(2) {
 }
 
 .aboutText {
-    max-width: 100%;
+    width: 60%;
 }
 
 .aboutText p {
